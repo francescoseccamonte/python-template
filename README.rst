@@ -27,13 +27,29 @@ You can clone the repository and do the following:
 
 	$ source .env/bin/activate
 
-3. Install package for testing in the virtual environment
+3. Update the pip distribution (to avoid potential issues)
+
+.. code-block:: bash
+
+	$ pip install --upgrade pip
+
+4. Install package for testing in the virtual environment
 
 .. code-block:: bash
 
 	$ python3 setup.py develop
 
-4. Import the package and use it!
+5. Import the package and use it!
+
+---------------
+
+DEPENDENCIES
+-----
+
+Insert your dependencies here.
+The main package dependencies are numpy_, `scikit-learn <https://scikit-learn.org/>`_, etc. .
+
+.. _numpy: https://numpy.org
 
 .. |Travis status| image:: Insert Travis image
 
